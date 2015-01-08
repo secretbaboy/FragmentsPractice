@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:id="@+id/memeLayout">
+
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/topInputText"
+        android:width="300dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="15dp" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/bottomInputText"
+        android:width="300dp"
+        android:layout_below="@+id/topInputText"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="15dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Generate"
+        android:id="@+id/button"
+        android:layout_below="@+id/bottomInputText"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="32dp" />
+
+
+</RelativeLayout>
