@@ -14,6 +14,7 @@ public class MainActivity extends ActionBarActivity implements TopFragment.TopSe
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
     }
+    //some changes
 
     @Override
     public void createMeme(String top, String bottom) {
